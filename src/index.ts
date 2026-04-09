@@ -12,7 +12,7 @@ app.get("/api/health", (_req, res) => {
 /** User routes */
 app.use("/api/users", usersRouter);
 
-const PORT = process.env.PORT ?? 3000;
+const PORT = process.env.PORT ?? 3456;
 
 // Only start listening when run directly (not during tests)
 if (require.main === module) {
